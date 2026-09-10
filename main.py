@@ -7,6 +7,7 @@ from window import Window
 
 def main():
     app = QApplication(sys.argv)
+    app.setApplicationName("Toolbox")
     window = Window()
     window.show()
     sys.exit(app.exec())
